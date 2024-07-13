@@ -1,12 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>나의 첫 스프링 페이지</title>
-</head>
-<body>
-	<h2>와 내 메인페이지 ㄷㄷ</h2>
-</body>
-</html>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<c:set var="path" value="${pageContext.request.contextPath }"/>
+<jsp:include page="/WEB-INF/views/common/header.jsp"/>
+<section id="content">
+	<h2>와 내 메인페이지 미춋다 ㄷㄷ</h2>
+	<p>"/main", "main"</p>
+	<a href="${path }/main">내가 만든 페이지 /main</a><br>
+	<a href="main">내가 만든 페이지  </a>
+</section>
+<jsp:include page="/WEB-INF/views/common/footer.jsp"/>
+	
