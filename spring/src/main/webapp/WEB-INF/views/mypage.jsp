@@ -7,8 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>이름 : 우예진</h2>
-	<h2>나이 : 18세</h2>
-	<h2>성별 : 여성</h2>
+	<ul>
+		<li>이름 : 유병승</li>
+		<li>나이 : 19짤</li>
+		<li>성별 : 남</li>
+	</ul>
 </body>
 </html>
